@@ -1,24 +1,51 @@
 .principal-banner {
-    padding: 70px 0px;
-    background-color: aqua;
+    padding: 90px 0px;
+    background-color: rgba(255, 182, 193, 0.39);
     height: 400px;
     text-align: center;
 }
-.button-contact{
-    margin-top: 50px;
+.text-banner{
+    color: black;
 }
+
+.social-network img{
+    width: 30px;
+    margin: 10px;
+}
+
 
 .about-me{
     padding: 50px 0px;
-    background-color:papayawhip;
+    height: 300px;
+    background-color:rgba(247, 244, 82, 0.575);
+}
+.title-about{
+    text-align: center;
+    margin: auto;
+}
+.text-about{
+    margin: auto;
+}
+.button-contact a{
+    margin-top: 10px;
+    background-color: black;
+    border: black;
+    color: lightgray;
 }
 
 .experience-skills{
-    background-color:lightgray;
+    background-color: rgba(255, 182, 193, 0.39);
     height: 300px;
+}
+.container-skills h1{
+    text-align: center;
 }
 
 .education{
-    height: 400px;
-    background-color:rgba(255, 192, 203, 0.651);
+    height: 500px;
+    background-color:rgba(247, 244, 82, 0.575);
+}
+
+.title-education{
+    text-align: center;
 }

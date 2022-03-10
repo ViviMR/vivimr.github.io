@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#f5dee9;">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <nav class="navbar navbar-light">
                     <div class="container">
@@ -51,24 +51,28 @@
                 </div>
             </div>
         </nav>
-        </div>
     </header>
     <main>
         <div class="principal-banner">
             <div class="container">
                 <div class="row">
-                    <div class="col text-banner">
+                    <div class="col-7 text-banner">
                         <h1>
-                            Hey! <br>
+                            Welcome <br>
                             I´m Viviana P. Moreno Rangel
                         </h1>
                         <p>
                             Desarrolladora Frontend <br>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro in deserunt nihil sit.
                         </p>
-                        <div class="button-contact">
-                            <a class="btn btn-primary" href="#" role="button">Contáctame</a>
+                        <div class="social-network">
+                            <a href="#"><img src="./imagenes/linkedin_black.png" alt="LinkedIn"></a>
+                            <a href="#"><img src="./imagenes/instagram_black.png" alt="Instagram"></a>
+                            <a href="#"><img src="./imagenes/gmail_black.png" alt="Correo electrónico"></a>
                         </div>
+                    </div>
+                    <div class="col image-banner">
+                        <img src="" alt="image Vivi">
                     </div>
                 </div>
             </div>
@@ -76,13 +80,15 @@
         <div class="about-me">
             <div class="container">
                 <div class="row">
-                    <div class="col text-banner">
+                    <div class="col title-about">
                         <div class="title-about-me">
                             <h1>
                                 About me
                             </h1>
                         </div>
-                        <div>
+                    </div>
+                    <div class="col-6 text-about">
+                        <div class="text-about-me">
                             <p>
                                 Desarrolladora Frontend <br>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro in deserunt nihil sit.
@@ -92,120 +98,133 @@
                                 officiis, itaque porro consectetur.
                             </p>
                         </div>
-                        <div class="social-network">
-                            <a href="./imagenes/logo_linkedin.png">LinkedIn</a>
-                            <a href="./imagenes/logo_instagram.png">Instagram</a>
-                            <a href="./imagenes/logo_gmail.png">Correo</a>
+                        <div class="button-contact">
+                            <a class="btn btn-primary" href="#" role="button">View works</a>
+                            <a class="btn btn-primary" href="#" role="button">Download CV</a>
                         </div>
-                    </div>
-                    <div class="col-6 image-banner">
-                        <img src="" alt="">
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="experience-skills pb-4 pt-4">
             <div class="container">
-                <div class="row image-skills">
-                    <div class="col-5">
-                        <div class="image-skills">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="col skills">
-                        <h1>
-                            My skills
-                        </h1>
-                        <div class="progress">
-                            <p>
-                                HTML
-                            </p>
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="progress">
-                            <p>
-                                CSS
-                            </p>
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">50%</div>
-                        </div>
-                        <div class="progress">
-                            <p>
-                                JavaScript
-                            </p>
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 25%"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="progress">
-                            <p>
-                                Canva
-                            </p>
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
+                <div class="container-skills">
+                    <h1>
+                        My skills
+                    </h1>
                 </div>
+
             </div>
         </div>
         <div class="education">
-            <div class="container">
+            <div class="title-education">
+                <h1>Education</h1>
+            </div>
+            <div class="container education-courses">
                 <div class="row">
-                    <div class="col-4">
-                        <h1>
-                            Educación
-                        </h1>
-                        <h2>
-                            Profesional en psicología
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, a ducimus! Ducimus debitis
-                            voluptatibus dolore ipsum nihil modi corrupti reprehenderit et. Quo officiis nesciunt iusto
-                            minus modi ratione veritatis nulla.
-                        </p>
+                    <div class="col">
+                        Column
                     </div>
                     <div class="col">
-                        <h1>
-                            Certificados
-                        </h1>
+                        Column
+                    </div>
+                    <div class="col">
                         <h2>
                             Curso FRONTEND DEVELOPER PRACTICO
                         </h2>
                         <p>
                             Platzi | 2022
                         </p>
+                    </div>
+                    <div class="col">
                         <h2>
                             Curso FRONTEND DEVELOPER
                         </h2>
                         <p>
                             Platzi | 2022
                         </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
                         <h2>
                             Curso BASICO DE JAVASCRIPT
                         </h2>
                         <p>
                             Platzi | 2022
                         </p>
+                    </div>
+                    <div class="col">
                         <h2>
-                            Curso PRACTICO DE MAQUETACION EN  CSS
+                            Curso PRACTICO DE MAQUETACION EN CSS
                         </h2>
                         <p>
                             Platzi | 2022
                         </p>
+                    </div>
+                    <div class="col">
                         <h2>
                             CURSO DEFINITIVO EN HTML Y CSS
                         </h2>
                         <p>
                             Platzi | 2021
                         </p>
+                    </div>
+                    <div class="col">
                         <h2>
-                            
+                            COMPETENCIAS DIGITALES
                         </h2>
+                        <h3>
+                            BECA COURSERA Y GEEK GIRLS LatAm Talento4.0
+                        </h3>
+                        <p>
+                            Universidad Autónoma de Barcelona | 2021
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            ESTRATEGIAS DE REDES SOCIALES
+                        </h2>
+                        <h3>
+                            BECA COURSERA Y GEEK GIRLS LatAm Talento4.0
+                        </h3>
+                        <p>
+                            Universidad Austral de Argentina | 2021
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            MARKETING VERDE
+                        </h2>
+                        <h3>
+                            BECA COURSERA Y GEEK GIRLS LatAm Talento4.0
+                        </h3>
+                        <p>
+                            Universidad de los Andes | 2021
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            ESPECILISTA EN PSICOLOGIA SOCIAL
+                        </h2>
+                        <p>
+                            Universidad El Bosque | 2016-2017
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            PSICOLOGA
+                        </h2>
+                        <p>
+                            Universidad Católica de Colombia | 2010-2014
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="my-blog">
             <div class="container">
                 <div class="row">
@@ -243,34 +262,64 @@
                     </div>
                 </div>
             </div>
-            <div class="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-2">
-                        </div>
-                        <div class="col-4">
-                            <h1>
-                                Contact
-                            </h1>
+        </div>
 
-                        </div>
-                        <div class="col">
-                            <h1>
-                                Me
-                            </h1>
-                        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="row ">
+                    <div class="col">
+                        <h1>
+                            Contact Me
+                        </h1>
+                    </div>
+                    <div class="col">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-5">
+                                <label for="validationCustom01" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <label for="validationCustomUsername" class="form-label">Email</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Send message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-
+        </div>
     </main>
+    <footer>
+        <div class="logo-footer">
+            <img src="./imagenes/Logo_footer.png" alt="Logo">
+        </div>
+        <div class="social-network-footer">
+            <a href="./imagenes/logo_linkedin.png">LinkedIn</a>
+            <a href="./imagenes/logo_instagram.png">Instagram</a>
+            <a href="./imagenes/logo_gmail.png">Correo</a>
+        </div>
 
-
-
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
