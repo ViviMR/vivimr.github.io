@@ -1,3 +1,6 @@
+.navbar-brand img{
+    width: 250px;
+}
 .principal-banner {
     padding: 90px 0px;
     background-color: rgba(255, 182, 193, 0.39);
@@ -83,6 +86,7 @@
     margin: auto;
 }
 footer{
+    background: linear-gradient(90deg, #e9f35eb9, #d835f863 45%, #fc17ca80);
     background-color: papayawhip;
     text-align: center;
 }
