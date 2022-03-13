@@ -16,7 +16,7 @@
     margin: 10px;
 }
 
-
+/* About me */
 .about-me{
     padding: 50px 0px;
     height: 300px;
@@ -29,6 +29,23 @@
 .text-about{
     margin: auto;
 }
+
+.button-about-me a{
+    margin-top: 10px;
+    background-color: black;
+    border: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.button-about-me a:hover{
+    margin-top: 10px;
+    border: black;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+/* About me end */
 .button-contact a{
     margin-top: 10px;
     background-color: black;
