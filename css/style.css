@@ -1,3 +1,11 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #b42380;
+    --purple-bg: #f534b0;
+    --hospital-grey: #cdcbd0;
+}
+
 body {
     font-family: "League Spartan", sans-serif;
 }
@@ -6,12 +14,12 @@ body {
     width: 250px;
 }
 .nav-item .nav-link {
-    color: #b42380 !important;
+    color: var(--purple) !important;
 }
 /* Header end */
 .principal-banner {
     padding: 90px 0px;
-    background: url(../imagenes/bg_banner_principal.jpg);
+    background: url(../imagenes/1bg_banner_principal.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +27,7 @@ body {
     text-align: center;
 }
 .text-banner {
-    color: #f534b0;
+    color: var(--white);
 }
 .text-banner h1 {
     font-weight: 700;
@@ -38,8 +46,8 @@ body {
 .about-me {
     padding: 50px 0px;
     height: 300px;
-    background-color: white;
-    color: #b42380;
+    background-color: var(--white);
+    color: var(--purple);
 }
 .title-about {
     text-align: center;
@@ -53,17 +61,17 @@ body {
 }
 .button-about-me a {
     margin-top: 10px;
-    background-color: black;
-    border: black;
-    color: white;
+    background-color: var(--black);
+    border: var(--black);
+    color: var(--white);
     transition: all 0.5s;
 }
 
 .button-about-me a:hover {
     margin-top: 10px;
-    border: black;
-    color: black;
-    border: 1px solid black;
+    border: var(--black);
+    color: var(--black);
+    border: 1px solid var(--black);
     background-color: transparent;
 }
 /* About me end */
@@ -81,9 +89,9 @@ body {
     margin: 60px auto;
     width: 150px;
     height: 150px;
-    background: #fefcff;
+    background: var(--white);
     border-radius: 50%;
-    border: 1px solid #cdcbd0;
+    border: 1px solid var(--hospital-grey);
 }
 
 .circle-wrap .circle .mask,
@@ -105,12 +113,12 @@ body {
     width: 122px;
     height: 122px;
     border-radius: 50%;
-    background: white;
+    background: var(--white);
     line-height: 120px;
     text-align: center;
     margin-top: 14px;
     margin-left: 14px;
-    color: black;
+    color: var(--black);
     position: absolute;
     z-index: 100;
     font-weight: 300;
@@ -125,7 +133,7 @@ body {
 .mask .fill-50,
 .mask .fill-30 {
     clip: rect(0px, 75px, 150px, 0px);
-    background-color: #f534b0;
+    background-color: var(--purple-bg);
 }
 
 .mask.full,
@@ -187,12 +195,12 @@ body {
 
 /* Education */
 .education {
-    background-color: #f534b0;
-    padding: 100px 0;
+    background-color: var(--purple);
+    padding: 70px 0;
 }
 .education-container h2 {
     text-align: center;
-    color: white;
+    color: var(--white);
     margin-bottom: 50px;
 }
 .education-courses {
@@ -201,7 +209,7 @@ body {
 }
 .education-courses li {
     list-style: none;
-    background: white;
+    background: var(--white);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -212,14 +220,14 @@ body {
 }
 .education-courses li h3 {
     font-size: 25px;
-    color: #b42380;
+    color: var(--purple);
     text-transform: uppercase;
 }
 /* Education end*/
 /* Portafolio */
 .portafolio {
     padding: 100px 0;
-    background: white;
+    background: var(--white);
 }
 .portafolio-container h2 {
     text-align: center;
@@ -227,27 +235,27 @@ body {
 }
 .portafolio a {
     margin-top: 10px;
-    background-color: black;
-    border: black;
-    color: white;
+    background-color: var(--black);
+    border: var(--black);
+    color: var(--white);
     transition: all 0.5s;
 }
 
 .portafolio a:hover {
     margin-top: 10px;
-    border: black;
-    color: black;
-    border: 1px solid black;
+    border: var(--black);
+    color: var(--black);
+    border: 1px solid var(--black);
     background-color: transparent;
 }
 /* Portafolio end*/
 footer {
     padding: 50px 0;
-    background: black;
+    background: var(--black);
     text-align: center;
 }
 footer h2 {
-    color: white;
+    color: var(--white);
 }
 
 @media (max-width: 768px) {
