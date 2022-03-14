@@ -11,7 +11,10 @@ body {
 /* Header end */
 .principal-banner {
     padding: 90px 0px;
-    background-color: black;
+    background: url(../imagenes/bg_banner_principal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 400px;
     text-align: center;
 }
@@ -245,4 +248,10 @@ footer {
 }
 footer h2 {
     color: white;
+}
+
+@media (max-width: 768px) {
+    .principal-banner {
+        background: url(../imagenes/bg_banner_principal-mobile.jpg);
+    }
 }
