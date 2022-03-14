@@ -239,7 +239,10 @@ body {
 }
 /* Portafolio end*/
 footer {
-    background: linear-gradient(90deg, #e9f35eb9, #d835f863 45%, #fc17ca80);
-    background-color: papayawhip;
+    padding: 50px 0;
+    background: black;
     text-align: center;
+}
+footer h2 {
+    color: white;
 }
