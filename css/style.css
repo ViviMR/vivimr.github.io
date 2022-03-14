@@ -151,7 +151,7 @@ body {
 .mask.full,
 .circle .fill-50 {
     animation: fill-50 ease-in-out 3s;
-    transform: rotate(150deg);
+    transform: rotate(120deg);
 }
 .mask.full,
 .circle .fill-30 {
@@ -180,7 +180,7 @@ body {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(150deg);
+        transform: rotate(120deg);
     }
 }
 @keyframes fill-30 {
@@ -254,7 +254,7 @@ footer {
     background: var(--black);
     text-align: center;
 }
-footer img {
+.logo-footer a img {
     width: 150px;
 }
 footer h2 {
