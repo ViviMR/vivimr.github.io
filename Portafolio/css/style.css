@@ -182,62 +182,37 @@ body {
 }
 /* Skills end */
 
-.button-contact a {
-    margin-top: 10px;
-    background-color: black;
-    border: black;
-    color: lightgray;
-}
-
-.experience-skills {
-    background-color: rgba(255, 182, 193, 0.39);
-    height: 300px;
-}
-.container-skills h1 {
-    text-align: center;
-}
-
+/* Education */
 .education {
-    height: 500px;
-    background-color: rgba(247, 244, 82, 0.575);
+    background-color: #f534b0;
+    padding: 100px 0;
 }
-
-.title-education {
+.education-container h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.education-courses {
+    margin: 0;
+    padding: 0;
+}
+.education-courses li {
+    list-style: none;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
-
-.education-courses img {
+.education-courses li img {
     width: 150px;
 }
-.education-courses h2 {
-    font-size: 15px;
-    color: rgb(94, 4, 112);
+.education-courses li h3 {
+    font-size: 25px;
+    color: #b42380;
     text-transform: uppercase;
-    text-align: end;
-}
-/*.education-courses h3, p{
-    font-size: 12px;
-    text-align: end;
-}*/
-
-.my-blog {
-    background-color: rgba(255, 182, 193, 0.39);
-    height: 400px;
 }
 
-.card-blog h1 {
-    text-align: center;
-    padding: 30px;
-}
-
-/*.contact{
-    background-color: rgba(247, 244, 82, 0.575);
-    height: 350px;
-}*/
-.contact h1 {
-    text-align: center;
-    margin: auto;
-}
 footer {
     background: linear-gradient(90deg, #e9f35eb9, #d835f863 45%, #fc17ca80);
     background-color: papayawhip;
